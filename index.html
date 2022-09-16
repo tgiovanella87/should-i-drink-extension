@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/default.css" media="all" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div><h1 class="main-header">Eu deveria beber hoje?</h1></div>
+      <div class="content">
+        <div id="formWrapper">
+          <div id="question"></div>
+          <div id="range-wrapper">
+            <span class="pouco">Pouco</span>
+            <input
+              type="range"
+              min="0"
+              max="5"
+              step="1"
+              value="3"
+              id="answer"
+            />
+            <span class="muito">Muito</span>
+          </div>
+          <div>
+            <button id="actionButton">Próximo</button>
+          </div>
+        </div>
+        <div id="result">
+          <div id="finalGrade"></div>
+          <div id="sentence"></div>
+        </div>
+        <div id="phrase"></div>
+      </div>
+    </div>
+    <script src="action.js"></script>
+  </body>
+</html>

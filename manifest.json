@@ -1,0 +1,16 @@
+{
+    "name": "Should I Drink Today?",
+    "description": "Uma extensão que vai te ajudar a decidir se deve tomar uma hoje ou não.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action" : {
+        "default_popup" : "index.html"
+    },
+    "icons": {
+        "16": "assets/cocktail.png",
+        "32": "assets/cocktail.png",
+        "48": "assets/cocktail.png",
+        "128": "assets/cocktail.png"
+    }
+
+  }
